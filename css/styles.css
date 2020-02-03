@@ -1,28 +1,95 @@
 body {
-  background: #000;
-  font-family: Verdana, Tahoma, sans serif;
-  font-size: 100%;
-  color: #fff;
-}
-a:link {
-  color: #03fce8;
-}
-a: visited {
- ;/ color: #fc03f4;
-}
- a: focus {
-  text-decoration: Underline;
-  background-color: #000;
+	background-color: black;
+	color: gray;
+	
 }
 
-a: hover {
-	text-decoration: dashed-line;
-	background-color: #bfff00;
+header, main, nav, footer{
+	text-align: center;
 }
-footer { 
-	background: #000;
-	font-size: 15px;
-	color: #fef65b;
-	resize: 30%;
-	im
+
+nav a {
+	padding: 15px;
+	padding-bottom: 4px;
+	font-size: 1.8em;
+	text-decoration: none;
+	color: white;
+}
+nav a:hover{
+	border-bottom: 2px;
+	font-size: 2em;
+	transition: .9s;
+}
+nav a:active{
+	background-color:pink;
+	color:pink;
+	border-bottom: 2px;
+	font-size: 2em;
+	transition: .9s;
+}
+
+nav a:link{
+	color:#0e5615; /*darkgreen*/
+	border-bottom: 2px;
+	font-size: 2em;
+	transition: .9s;
+}
+nav a:visited{
+	background-color: pink;
+	border-bottom: 2px;
+	font-size: 2em;
+	transition: .9s;
+}
+#me, #welcometext{
+	float: left;
+	text-align: left;
+	
+}
+
+
+footer{
+	clear: left;
+	color: #f65ef0;
+	font-size: 10px;
+}
+
+table {
+margin: 0px auto;
+
+}
+td {
+	padding-right: 10px;
+	font-size: 1.3em;
+}
+
+td strong{
+	color: orange;
+}
+
+#table-header{
+	background-color: #351a00;
+	
+}
+
+.table-row{
+	background-color: #753900;
+}
+
+ul{
+	text-align: left;
+	padding-left: 200px;
+}
+
+.hobby{
+	color: yellow;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	margin-bottom: 0px;
+}
+
+#logo{
+	float: center;
 }
