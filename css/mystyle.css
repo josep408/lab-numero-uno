@@ -1,0 +1,28 @@
+body {
+  background: #000;
+  font-family: Verdana, Tahoma, sans serif;
+  font-size: 100%;
+  color: #fff;
+}
+a:link {
+  color: #03fce8;
+}
+a: visited {
+ ;/ color: #fc03f4;
+}
+ a: focus {
+  text-decoration: Underline;
+  background-color: #000;
+}
+
+a: hover {
+	text-decoration: dashed-line;
+	background-color: #bfff00;
+}
+footer { 
+	background: #000;
+	font-size: 15px;
+	color: #fef65b;
+	resize: 30%;
+	im
+}
